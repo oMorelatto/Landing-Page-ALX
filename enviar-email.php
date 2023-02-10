@@ -33,7 +33,7 @@ $destino = "rogeriomorelatto@gmail.com";
   $headers .= "From: $nome <$email>";
 
   //Enviar
-  mail($destino, $assunto, $arquivo, $headers);
+  mail($destino, $arquivo, $headers);
   
   echo "<meta http-equiv='refresh' content='10;URL=../index.html'>";
 
