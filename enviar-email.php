@@ -22,6 +22,7 @@ $arquivo = "
 
 //email para quem será enviado o formulário
 $destino = "rogeriomorelatto@gmail.com";
+$assunto = "Assunto: Inscrição curso $assunto";
 
 
 
@@ -33,7 +34,7 @@ $destino = "rogeriomorelatto@gmail.com";
   $headers .= "From: $nome <$email>";
 
   //Enviar
-  mail($destino, $arquivo, $headers);
+  mail($destino, $assunto, $arquivo, $headers);
   
   echo "<meta http-equiv='refresh' content='10;URL=../index.html'>";
 
