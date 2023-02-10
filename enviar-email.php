@@ -22,7 +22,7 @@ $arquivo = "
 
 //email para quem será enviado o formulário
 $destino = "rogeriomorelatto@gmail.com";
-$assunto = "Assunto: Inscrição curso $assunto";
+$assunto = "Assunto: Inscrição curso";
 
 
 
