@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Linkedin: Primeiros Passos | ALX Recursos Humanos</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                 <!-- <h1 class="m-0">ALX Recursos Humanos</h1>-->
+                    <img class="img-white" src="img/logo-white.png" alt="Logo ligth ALX Recursos Humanos">
+                    <img class="img-dark" src="img/logo-black.png" alt="Logo dark ALX Recursos Humanos">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Início</a>
+                        <a href="#servico" class="nav-item nav-link">Serviços</a>
+                        <a href="#depoimentos" class="nav-item nav-link">Depoimentos</a>
+                        <a href="#contato" class="nav-item nav-link">Contato</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-xxl bg-primary hero-header">
+                <div class="container px-lg-5" style="text-align: center;">
+
+                    <h1 class="text-white mb-4 animated slideInDown">Linkedin para iniciantes | Inscreva-se:</h1>
+                    <p class="text-white pb-3 animated slideInDown" style="text-align: justify;">Este treinamento visa qualificar o profissional na utilização do LinkedIn em suas ferramentas básicas.
+                        Lembrando que esta rede tem crescido gradativamente auxiliando os profissionais na busca de novas oportunidades, no networking com profissionais de suas áreas de interesse e no acompanhamento das novidades do mundo corporativo.</p>
+                        <p class="text-white pb-3 animated slideInDown"> Não perca esta chance e dê seu primeiro passo! Inscreva-se!</p>
+
+
+                    <div class="row g-5 align-items-end">
+                        <div class="col-lg-6 text-center text-lg-start">
+
+
+                            <form class="formulario">
+                                <label for="nomesobrenome">Nome completo</label>
+                                <input type="text" id="nomesobrenome" class="input-padrao" required />
+                        
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" class="input-padrao" required/>
+                        
+                                <label for="telefone">Telefone</label>
+                                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX"/>
+                                <fieldset>
+                                    <label><input type="checkbox" checked required/> Estou ciente de que todos os dados aqui inseridos serão tratados de forma confidencial pela ALX Recursos Humanos.</label>
+                                </fieldset>
+                                <button type="submit" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <img class="img-fluid animated zoomIn" src="img/hero.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+
+
+
+        <!-- Serviços Início -->
+        <div class="container-xxl py-5" servico id="servico">
+            <div class="container py-5 px-lg-5">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="section-title text-secondary justify-content-center">Serviços</p>
+                    <h1 class="text-center mb-5">Quais soluções oferecemos aos nossos clientes</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-search fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Recrutamento e Seleção</h5>
+                            <p class="m-0">Atuar de forma eficaz na captação de talentos para que a empresa construa seu capital humano de acordo com as competências necessárias.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-users fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Desenho e Estrutura Organizacional</h5>
+                            <p class="m-0">Definir o agrupamentos de atividades, responsabilidades e recursos com objetivo de alcançar os resultados e metas estabelecidos.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-file fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Políticas Corporativas de RH</h5>
+                            <p class="m-0">Definir políticas que servirão como guia para que a gestão de pessoas atue de forma estratégica no negócio.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-building fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Implantação de Processos de RH</h5>
+                            <p class="m-0">Implantar processos estratégicos de RH alinhados com os objetivos organizacionais.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-thumbs-up fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Recolocação de Profissionais</h5>
+                            <p class="m-0">Alinhar vagas disponíveis através da solução de recrutamento e seleção com o perfil dos profissionais que estão em busca de recolocação.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-handshake fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Simulação de Entrevistas</h5>
+                            <p class="m-0">Simular junto ao candidato os processos de entrevistas nas empresas com objetivo de alinhar a postura adequada.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-user-circle fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Aconselhamento Profissional</h5>
+                            <p class="m-0">Aconselhar profissionais em processo de recolocação ou transição de carreira.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+
+
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s" depoimentos id="depoimentos">
+            <div class="container py-5 px-lg-5">
+                <p class="section-title text-secondary justify-content-center">Depoimentos</p>
+                <h1 class="text-center mb-5">O que os nossos clientes dizem...</h1>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-light rounded my-4">
+                        <p class="fs-5" style="text-align: justify;"><i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i>Tive a oportunidade de trabalhar com a Alexia na Weatherford, onde pude presenciar a excelente atuação e competência no RH da empresa. Também tive a grande oportunidade de ter uma consultoria profissional que me ajudou a conseguir oportunidades de trabalho em outras empresas.
+                            Em conclusão, a Alexia é uma profissional excelente, capaz de entender e orientar no melhor formato possível!</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 65px; height: 65px;">
+                            <div class="ps-4">
+                                <h5 class="mb-1">Leonardo Deon</h5>
+                                <span>Analista de Vendas Pleno</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded my-4">
+                        <p class="fs-5" style="text-align: justify;"><i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i>A Aléxia é uma profissional incrível, mas acima de tudo uma pessoa atenciosa, preocupada com o propósito do cliente, me auxiliou e orientou de forma empática e super pontual nas suas entregas. Obrigada Aléxia por tanto. Sucesso sempre!</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 65px; height: 65px;">
+                            <div class="ps-4">
+                                <h5 class="mb-1">Luciane Castilhos</h5>
+                                <span>Agente de Relações com o Mercado</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded my-4">
+                        <p class="fs-5" style="text-align: justify;"><i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i>Profissional ímpar quando trata-se de recursos humanos como um todo. Alexia possui uma capacidade de intermediar entre demandas administrativas e humanas com muita facilidade. Foi um privilégio atuar ao seu lado Alexia. Sucesso!</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 65px; height: 65px;">
+                            <div class="ps-4">
+                                <h5 class="mb-1">Anael Rossetto Vieira</h5>
+                                <span>Credit & Collection Manager & Consultant</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded my-4">
+                        <p class="fs-5" style="text-align: justify;"><i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i>Tive a oportunidade de trabalhar com a Alexia por aproximadamente 1 ano. Com certeza é uma profissional que se destaca logo nos primeiros contatos. Comprometida e dedicada, sempre buscando se aperfeiçoar em sua área de atuação. Uma pessoa dinâmica e proativa, que faz as coisas acontecerem. Pude aprender muito com ela e espero que mais pessoa tenham essa incrível oportunidade que pude ter.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 65px; height: 65px;">
+                            <div class="ps-4">
+                                <h5 class="mb-1">Maiara Saretto</h5>
+                                <span>Qualidade</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- Team Start -->
+        <div class="container-xxl py-5" contato id="contato">
+            <div class="container py-5 px-lg-5">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="text-center mb-5">Conheça nossa consultora</h1>
+                </div>
+                <div class="row g-4" style="justify-content: center;">
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item bg-light rounded">
+                            <div class="text-center border-bottom p-4">
+                                <img class="img-fluid rounded-circle mb-4" src="img/team-2.jpg" alt="">
+                                <h5>Aléxia Paôla</h5>
+                                <span>Consultora e Mentora de RH</span>
+                            </div>
+                            <div class="d-flex justify-content-center p-4">
+                                <a class="btn btn-square mx-1" href="https://www.facebook.com/alxrecursoshumanos" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.instagram.com/alxrecursoshumanos/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.linkedin.com/company/alx-recursos-humanos/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+        
+
+        <!-- Footer início -->
+        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3" style="width: 348px">
+                        <p class="section-title text-white h5 mb-4">Contato</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>54 9 8436.4876</p>
+                        <p><i class="fa fa-envelope me-3"></i>alxrecursoshumanos@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/alxrecursoshumanos" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/alxrecursoshumanos/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/alx-recursos-humanos/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0" style="width: 450px;"><a>ALX Recursos Humanos – Todos os direitos reservados</a> &copy; 2022</div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Desenvolvido por Morelatto Tech</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer final -->
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
